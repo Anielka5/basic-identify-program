@@ -1,0 +1,5 @@
+0 mezczyzna 0-14
+1 mezczyzna 15-37
+2 mezczyzna 38-54
+3 mezczyzna 55-68
+4 mezczyzna 69+
