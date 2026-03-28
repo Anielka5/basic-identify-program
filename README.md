@@ -11,4 +11,11 @@ Po wywołaniu komendy i jej argumentów sprawdza, czy są jakieś załaczniki. P
 Dodatkowo, program informuje nas w konsoli, że mamy dużo podejrzanych o oszustwo.
 ******* 
 Zalecana jest zmiana modelu .h5, ponieważ jest to wczesna wersja modelu, która zawiera tylko identyfikację mężczyzn i wprowadzenie rozróżniania AI od prawdziwych.
-
+## Instrukcja Użytkownika w kilku punktach
+1. Wejdź na serwer https://discord.com/channels/1421408649506590842/1421408650215297108,
+2. Sprawdź, czy bot Goniec jest aktywny,
+3. Jeżeli bot jest aktywny, wpisz komendę $check_photo, nie wciskaj Enter, dopóki to nie jest wspomniane w instrukcji,
+4. Naciśnij spację i po niej wpisz imię, spacja, nazwisko, spacja,
+5. Potem wpisz K dla Kobiety, lub M dla mężczyzny, i spacja,
+6. Teraz wpisz swój wiek cyfrą,
+7. Wstaw swoje zdięcię i naciśnij Enter,aby zatwierzić.
