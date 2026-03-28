@@ -70,5 +70,7 @@ async def check_photo(ctx, name1, surname, plec, group:int):
     else:
         await ctx.send("nie przesłałeś załącznika")
     if len(wanted_list)+1 > warning_edge:
+        print("wykryto", warning_edege, "osób do sprawdzenia")
         print(wanted_list)
         warning_edge+=5
+bot.run("token")
