@@ -18,4 +18,18 @@ Zalecana jest zmiana modelu .h5, ponieważ jest to wczesna wersja modelu, która
 4. Naciśnij spację i po niej wpisz imię, spacja, nazwisko, spacja,
 5. Potem wpisz K dla Kobiety, lub M dla mężczyzny, i spacja,
 6. Teraz wpisz swój wiek cyfrą,
-7. Wstaw swoje zdięcię i naciśnij Enter,aby zatwierzić.
+7. Wstaw swoje zdięcię i naciśnij Enter,aby zatwierdzić.
+> Jeżeli bot nie wypisze 'Mam załącznik...' lub "nie przesłałeś załącznika", albo powtórzy komendę, to jest uruchomiony właśnie inny kod.
+## Wersja oprogramowania i bibliotek
+* Python: 3.11
+* discord: 2.3.2
+* discord.py: 2.7.1
+* google-pasta: 0.2.0
+* h5py: 3.14.0
+* keras: 3.13.2
+* numpy: 2.4.3
+* pillow: 12.1.1
+* pip: 24.0
+* rich: 14.3.3
+* tensorflow: 2.21.0
+* tf_keras: 2.21.0
