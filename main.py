@@ -1,8 +1,6 @@
 import discord
 from discord.ext import commands
 from model import get_class
-import os, random
-import requests
 from PIL import Image
 
 intents = discord.Intents.default()
@@ -24,6 +22,7 @@ async def check_photo(ctx, name1, surname, plec, group:int):
     global wanted_list
     if ctx.message.attachments:
         for attachment in ctx.message.attachments:
+            ctx.send("Mam załącznik...")
             file_name = attachment.filename
             plEc = ''
             zle = False
@@ -53,6 +52,8 @@ async def check_photo(ctx, name1, surname, plec, group:int):
             #await ctx.send(get_class('./keras_model.h5','./labels.txt', f'./{file_name}' ))
             image = Image.open(file_name)
             result_model = get_class("keras_model.h5", "labels.txt", file_name)
+            if zle == True:
+                break
             if result_model == plEc:
                 await ctx.send("Identyfikacja zakończona: Jesteś tym, za kogo się podajesz.")
                 users.append({
@@ -68,7 +69,6 @@ async def check_photo(ctx, name1, surname, plec, group:int):
                 print(result_model)
     else:
         await ctx.send("nie przesłałeś załącznika")
-if len(wanted_list)+1 > warning_edge:
-    print(wanted_list)
-    warning_edge+=5
-bot.run("MTQyMTQwOTY2MDI1MDA5NTczOA.GJsP_X.QdrnHZbLh2QtCBl2vW0Ze6LylcBAyXgI7C_HV4")
+    if len(wanted_list)+1 > warning_edge:
+        print(wanted_list)
+        warning_edge+=5
